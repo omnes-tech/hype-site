@@ -32,6 +32,7 @@ const Index = () => {
       
       <Navigation />
       
+      
       <main>
         <CampaignSection />
         <BusinessSection />
