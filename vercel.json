@@ -1,4 +1,11 @@
 {
+  "redirects": [
+    {
+      "source": "/politica-de-privacidade",
+      "destination": "https://api-v2.hypeapp.com.br/api/legal/privacidade",
+      "permanent": true
+    }
+  ],
   "rewrites": [
     {
       "source": "/((?!api/).*)",
