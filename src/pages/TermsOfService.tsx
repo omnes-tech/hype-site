@@ -2,6 +2,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowLeft } from 'lucide-react';
+import { PRIVACY_POLICY_URL } from '@/lib/legal';
 
 const TermsOfService = () => {
   return (
@@ -231,7 +232,7 @@ const TermsOfService = () => {
             <h2 className="text-2xl font-bold text-[#FF3E94] mb-4">11. DA PROTEÇÃO DE DADOS PESSOAIS</h2>
             <div className="space-y-4">
               <p><strong>11.1</strong> O tratamento de dados pessoais dos Usuários está em conformidade com a Lei Federal n.13.709/2018 (Lei Geral de Proteção de Dados) e demais normas correlatas, que constam em documento próprio, denominado "Política de Privacidade" que regula o tratamento dado às informações e dados pessoais coletados através do Aplicativo.</p>
-              <p><strong>11.2</strong> A Política de Privacidade é parte integrante e inseparável dos Termos de Uso, e pode ser acessada a partir do link: <Link to="/politica-de-privacidade" className="text-[#C9F05C] hover:underline">Política de Privacidade</Link>.</p>
+              <p><strong>11.2</strong> A Política de Privacidade é parte integrante e inseparável dos Termos de Uso, e pode ser acessada a partir do link: <a href={PRIVACY_POLICY_URL} className="text-[#C9F05C] hover:underline">Política de Privacidade</a>.</p>
               <p><strong>11.2.1</strong> Na Política de Privacidade, identificamos os dados pessoais que tratamos e prestamos informações, sobre como, por qual motivo e com qual fundamento legal o fazemos.</p>
               <p><strong>11.2.2</strong> Caso alguma disposição da "Política de Privacidade" conflitar com qualquer outra do presente documento, deverá prevalecer o descrito na norma mais específica.</p>
             </div>
