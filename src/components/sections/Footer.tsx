@@ -1,5 +1,6 @@
 
 import { Heart } from "lucide-react";
+import { PRIVACY_POLICY_URL } from "@/lib/legal";
 
 export const Footer = () => {
   const handleContactClick = () => {
@@ -10,7 +11,7 @@ export const Footer = () => {
 
   const footerLinks = [
     { name: "Termos de Uso", href: "/termos-de-uso" },
-    { name: "Política de Privacidade", href: "/politica-de-privacidade" },
+    { name: "Política de Privacidade", href: PRIVACY_POLICY_URL },
     { name: "Contato", onClick: handleContactClick },
     { name: "Blog", href: "#" }
   ];

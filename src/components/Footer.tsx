@@ -2,11 +2,12 @@
 import React from 'react';
 import { Mail, MessageCircle } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import { PRIVACY_POLICY_URL } from '@/lib/legal';
 
 const Footer = () => {
   const links = [
     { title: "Termos de Uso", href: "/termos-de-uso" },
-    { title: "Política de Privacidade", href: "/politica-de-privacidade" },
+    { title: "Política de Privacidade", href: PRIVACY_POLICY_URL },
     { title: "Contato", href: "#" },
     { title: "Blog", href: "#" }
   ];
